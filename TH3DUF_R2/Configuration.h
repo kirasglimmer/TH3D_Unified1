@@ -228,6 +228,7 @@
 //===========================================================================
 // Creality CR-10S Options - Select 'Arduino Mega 2560' from Tools > Board
 //===========================================================================
+// kirasglimmer
 #define CR10S
 //#define CR10S_MINI
 //#define CR10S_S4
@@ -256,6 +257,7 @@
 //#define TM3DAERO
 //#define TM3DAERO_EXTENDED
 //#define PETSFANG  //This is the RIGHT mounted version - if using the left mount please use the CUSTOM_PROBE option.
+// kirasglimmer
 #define CUSTOM_PROBE
 
 // Touch LCD Setting - Enable this if you have the touch LCD are are getting a "paused for user" message in the terminal window.
@@ -935,6 +937,7 @@
   *      O-- FRONT --+
   *    (0,0)
   */
+  // kirasglimmer
   #define X_PROBE_OFFSET_FROM_EXTRUDER -40  // X offset: -left  +right  [of the nozzle]
   #define Y_PROBE_OFFSET_FROM_EXTRUDER -4  // Y offset: -front +behind [the nozzle]
 #endif
