@@ -234,6 +234,11 @@
 //#define CR10S_S4
 //#define CR10S_S5
 
+// kirasglimmer - PID autotune results (defined here instead of Configuration_adv.h)
+#define DEFAULT_Kp 18.60
+#define DEFAULT_Ki 1.55
+#define DEFAULT_Kd 55.60
+
 // This disables the stock CR-10S Filament Sensor
 // DO NOT ENABLE THIS IF YOU ARE USING THE EZOUT.
 //#define CR10S_NOFILAMENTSENSOR
